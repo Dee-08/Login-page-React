@@ -46,7 +46,7 @@ const SignUp = () => {
           </div>
           <button type="submit" className="signup-button">Sign Up</button>
         </form>
-        <p>Already have an account? <Link to="/">Log In</Link></p>
+        <p>Already have an account? <Link to="/login">Log In</Link></p>
       </div>
       <div className="image-section"></div>
     </div>
