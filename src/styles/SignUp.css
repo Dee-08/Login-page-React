@@ -1,0 +1,20 @@
+.signup-container {
+    display: flex;
+    height: 100vh;
+}
+
+  .form-section {
+    flex: 1;
+    padding: 50px;
+    background: white;
+  }
+  
+  .signup-button {
+    width: 100%;
+    padding: 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
