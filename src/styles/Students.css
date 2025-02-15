@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background: #6abaa3;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #fefedf;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+    font-size: 18px;
+    color: #fefedf;
+  }
+  
+  .sidebar ul li.active,
+  .sidebar ul li:hover {
+    background: #274e43;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background: #fefedf;
+    color: #162447;
+    overflow-y: auto;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-auto-rows: minmax(200px, auto);
+    background: #fff;
+    color: #162447;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-details {
+    background: #fefedf;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .profile-details:nth-of-type(4) {
+    grid-column: 1/4;
+    grid-row: 2/4;
+    background: url(/images/classroom.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-details h1 {
+    font-size: 40px;
+    color: #6abaa3;
+  }
+  
+  .profile-details p {
+    margin: 10px 0;
+
+  }
+  
+  .profile-details ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .profile-details ul li {
+    padding: 5px 0;
+  }  
