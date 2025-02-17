@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <h2 className="logo">⚪ Circle</h2>
+      <h2 className="logo">Learnify</h2>
       <ul>
         <Link to="/Tutors"><li><FontAwesomeIcon icon={faChartBar} /> Dashboard</li></Link>
         <li><FontAwesomeIcon icon={faUser} /> Profile</li>

@@ -48,7 +48,7 @@ const Dashboard = () => {
   return (
     <div className="dashboard">
       <nav className="sidebar">
-        <h1>Learnr Dashboard</h1>
+        <h1>Learnify Dashboard</h1>
         <ul>
           <li className={activePage === 'profile' ? 'active' : ''} onClick={() => setActivePage('profile')}>
             Profile
