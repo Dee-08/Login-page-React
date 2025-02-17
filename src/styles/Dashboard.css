@@ -1,0 +1,46 @@
+.tutors-dashboard {
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 10px;
+    color: #fefedf;
+    background: #6abaa3;
+  }
+  
+  .messages {
+    margin-top: 20px;
+  }
+  
+  .message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .message p {
+    margin-left: 10px;
+  }
+  
+  .status {
+    margin-left: auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .answered {
+    background: lightgreen;
+  }
+  
+  .pending {
+    background: lightcoral;
+  }
+  

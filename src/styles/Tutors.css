@@ -1,0 +1,11 @@
+.tutors {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .main-content {
+    flex-grow: 1; 
+    background: #f4f4f4;
+    padding: 20px;
+    overflow-y: auto;
+  }  
